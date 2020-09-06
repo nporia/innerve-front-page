@@ -25,7 +25,7 @@
   }
   nav li {
     display: inline;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-family: 'Londrina Solid', cursive;
     text-align: center;
     align-items: center;
@@ -158,6 +158,7 @@
     }
     
     .cf {
-      zoom: 1;
+        float: right;
+        zoom: 1;
     }
 }
