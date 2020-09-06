@@ -1,23 +1,20 @@
-const navSlide = () => {
-    const burger = document.querySelector('.burger');
-    const nav = document.querySelector('.nav-links');
-    const navLinks = document.querySelectorAll('.nav-links li')
+$(function () {
+    menu = $('nav ul');
 
-    burger.addEventListener('click', () => {
-        nav.classList.toggle('nav-active');
-
-        navLinks.forEach((link, index) => {
-            if (link.style.animation) {
-                link.style.animation = '';
-            } else {
-                link.style.animation = `navLinkFade 0.5s ease forwards ${index / 7 + 0.5}s`;
-            }
-        });
-
-        burger.classList.toggle('cross');
+    $('#openup').on('click', function (e) {
+        e.preventDefault(); menu.slideToggle();
     });
 
+    $(window).resize(function () {
+        var w = $(this).width(); if (w > 480 && menu.is(':hidden')) {
+            menu.removeAttr('style');
+        }
+    });
 
-}
-
-navSlide();
+    $('nav li').on('click', function (e) {
+        var w = $(window).width(); if (w < 480) {
+            menu.slideToggle();
+        }
+    });
+    $('.open-menu').height($(window).height());
+});
