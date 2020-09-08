@@ -88,7 +88,9 @@
   }
 
   @media screen and (max-width: 1170px) {
-  
+  .grid{
+      margin-top: 8vh;
+    }
     *{
         overflow-x: hidden;
         scroll-behavior: unset;
