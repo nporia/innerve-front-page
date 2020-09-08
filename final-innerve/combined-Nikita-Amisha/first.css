@@ -1,7 +1,9 @@
 body{
   margin: 0;
 }
-
+section .grid{
+  margin-top: 10vh;
+}
 .grid {
   text-align: center;
   width: 100%;   /*orginal was 1349*/
