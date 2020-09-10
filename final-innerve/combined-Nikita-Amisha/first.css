@@ -1,5 +1,6 @@
 body{
   margin: 0;
+  background: black;
 }
 .grid {
   text-align: center;
@@ -76,7 +77,7 @@ body{
 }
 
 .About{
-  height: 1000px;
+  height: 200px;
   width: 100%;
   background-color: black;
   text-align: center;
@@ -89,11 +90,10 @@ body{
 
 
 
-
 .para{
   text-align: center;
   margin-right: 10px;
   font-size: 25px;
-  margin-top: 200px;
+ margin-top: 20px;
   margin-left: 10px;
 }
