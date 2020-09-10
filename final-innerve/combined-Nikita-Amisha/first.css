@@ -74,3 +74,26 @@ body{
   background-image: url(4.jpg);
   background-size: contain;
 }
+
+.About{
+  height: 1000px;
+  width: 100%;
+  background-color: black;
+  text-align: center;
+  margin: 0;
+  position: relative;
+  background-size:contain;
+  display: inline-flex;
+  text-align: center;
+}
+
+
+
+
+.para{
+  text-align: center;
+  margin-right: 10px;
+  font-size: 25px;
+  margin-top: 200px;
+  margin-left: 10px;
+}

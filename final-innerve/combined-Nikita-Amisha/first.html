@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width"/>
     <title>Innerve'20</title>
     <!--Google Fonts-->
     <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap" rel="stylesheet">
@@ -15,6 +16,9 @@
     <link rel="stylesheet" href="footer.css">
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Lora:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"crossorigin="anonymous">
     </script>
@@ -81,41 +85,51 @@
       </div>
     </div>
     <!--To check the end of first section-->
-  <section>
-  <h1>hello</h1>
-</section>
+  
+<!--carousel About Us-->
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+  </ol>
 
-<div  class="panel greenn"> 
-    <p> Amanda is a Brazilian fashion designer <br>
-        based in Miami. From an early <br> age she was interested in the arts and <br>
-        manual tasks and her favorite activity was <br> always drawing, which she loves to do until <br>the present days.
-         For Amanda, few things <br>are more pleasurable than seeing an idea <br>become material and enter people's lives,
-          <br> creating bonds between those who create and<br> those who wear it. </p>
-        </div>
-        <br>
-        
-    <div class="panel violet" data-color="violet">
-        
- <p> It's her way of being in the world. <br> She is fascinated by the beauty of colors and its <br> combinations, the mixture of geometric and organic shapes, <br> different materials with its textures and finishes. <br>
-       She has always been curious and loves <br> to see and explore the world, learn other languages and cultures.  <br>Traveling is one of the things she enjoys the most, not only to relax,  <br>but also to learn and research. When younger,  <br>she moved to Germany to study design at Hochschule für <br> Gestaltung Offenbach am Main and then to Portugal to <br> specialize in Fashion Design at Universidade do Minho, <br> an opportunity that helped her to improve her knowledge on  <br>developing a fashion collection and creating a  <br>new product.
-      Back to Brazil,  <br>she founded Trocando em Miúdos, a brand that has become a reference in  <br>accessories design and creative economy in Brazil. The brand gathered fans for  more than a decade and<br> its works were featured in several  <br>international medias and magazines such as <br> Vogue Brasil, Marie Claire, among others.
-      <br> Since 2018 Amanda has been living in Miami, USA, a new experience that <br>  is helping her to expand her cultural horizons. Her values for a design  <br> process are shaped by building products with beauty, quality, meaning and purpose.</p>
-              
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    <div class="item active">
+      <img src="https://s19.postimg.cc/qzj5uncgj/slide1.jpg" alt="Los Angeles" style="width:100%;">
     </div>
-    <div class = "marq"> <marquee behavior="scroll" direction="left">  Creative consulting and designs </marquee>  </div><br> 
-    <div class="panel pinkk violet" data-color="indigo">
-        <p> Amanda is a Brazilian fashion designer based in Miami. <br> From an early age she was interested in <br>the arts and
-            manual tasks and her<br> favorite activity was always drawing,<br> which she loves to do until the present days.<br>
-             For Amanda, few things are more pleasurable than seeing an idea become material and enter people's lives,
-              creating bonds between those<br> who create and those who wear it. </p>
+
+    <div class="item">
+      <img src="https://s19.postimg.cc/qzj5uncgj/slide1.jpg" alt="Chicago" style="width:100%;">
     </div>
-    <div class = "marq" style = "color: #b83b5e;"> <marquee behavior="scroll" direction="left">  Creative consulting and designs </marquee>  </div><br> 
-    <div class="panel bluee violet" data-color="blue">
-        <p> Amanda is a Brazilian fashion designer based in Miami. <br>From an early age she was interested in <br>the arts and
-            manual tasks and her favorite <br>activity was always drawing, <br>which she loves to do until the present days.<br>
-             For Amanda, few things are more pleasurable<br> than seeing an idea become material and enter people's lives,<br>
-              creating bonds between those who create and those who wear it. </p>
+  
+    <div class="item">
+      <img src="https://s19.postimg.cc/qzj5uncgj/slide1.jpg" alt="New york" style="width:100%;">
     </div>
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+<section class="About"> 
+<br>
+
+<p style="color: white;" class="para">
+  Innerve is the annual technical fest of Indira Gandhi Delhi Technical University for Women (IGDTUW). With its inception in 2015, every year, the two-day extravaganza has 
+   witnessed a phenomenol gathering of students from all domains. The event is back for its FIFTH edition 
+   where it aims to be a platform for participants to test their engineering skills and showcase their prowess.s</h2>
+  
+</section>
 
 <footer>
       <div class="main-content">
