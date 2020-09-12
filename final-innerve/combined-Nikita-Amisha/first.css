@@ -157,4 +157,10 @@ svg {
     margin-top: -6%;
   }
 }
+
+@media screen and (max-width: 1170px) and (min-width: 1000px) {
+  .grid{
+    margin-top: -3%;
+  }
+}
    
